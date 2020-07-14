@@ -85,11 +85,11 @@ line-height: 37px;
     height: 558px;
 	}
 .spring-preview{
-		background: url(img/fondo-5.png);
+		background: url(../img/fondo-5.png);
 		background-size: cover;
 	}
 	.spring-preview-2{
-		background: url(img/fondo-6.png);
+		background: url(../img/fondo-6.png);
 		background-size: cover;
 	}
 	.btn-collection{
