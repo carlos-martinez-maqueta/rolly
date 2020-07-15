@@ -1,0 +1,158 @@
+.carousel-caption-shop {
+    position: absolute;
+    /* right: 0px; */
+    top: 31%;
+    left: 13%;
+    z-index: 10;
+    padding-top: 11px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    width: 70%;
+}
+.text-banner {
+    width: 32%;
+}
+.carousel-caption-shop h5{
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 51px;
+}
+.carousel-caption-shop p{
+
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+}
+.fondo-linear-shop {
+    width: 100%;
+    height: 360px;
+    /* background-color: #0e0e0e2e; */
+    z-index: 1;
+    position: absolute;
+    background: linear-gradient(to bottom, #06060687, #1510101a);
+}
+  .product-list h3{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #07242A;
+  }
+.product-list p{
+  font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+margin-bottom: 10px;
+color: rgba(7, 36, 42, 0.5);
+}
+.product-list span{
+  font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+color: #FF6611;
+}
+.product-item{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.product-item-img{
+    height: 212px;
+}
+/*title d-none*/
+.product-list-title{
+  display: none;
+}
+.product-item-info{
+	text-align: center;
+}
+/* MEDIA */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1080px) {
+.carousel-caption-shop{
+	top: 17%;
+}
+}
+
+@media (max-width: 960px) {
+ .carousel-caption-shop{
+ 	width: 74%;
+ }
+}
+
+@media (max-width: 768px) {
+.product-item-img {
+    height: auto;
+}
+.carousel-caption-shop {
+top: 25%;
+    width: 74%;
+    text-align: center;
+}
+.carousel-caption-shop h5 {
+    font-size: 32px;
+}
+}
+@media (max-width: 540px) {
+	.carousel-caption-shop {
+    width: 78%;
+    text-align: center;
+}
+.carousel-caption-shop h5 {
+    font-size: 33px;
+}
+.product-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+@media (max-width: 480px) {
+ 
+.product-list-title{
+  display: block !important;
+}
+.product-item-img {
+    height: auto;
+}
+}
+@media (max-width: 360px) {
+.fondo-linear-shop {
+    width: 100%;
+    height: 251px;
+}
+    .carousel-caption-shop{
+    text-align: center;
+    top: 26%;
+    width: 80%;
+}
+.carousel-caption-shop h5 {
+    font-size: 27px;
+}
+.carousel-caption-shop p{
+	font-size: 14px;
+}
+
+.text-banner {
+    width: 100%;
+}
+.fondo-linear {
+    width: 100%;
+    height: 246px;
+}
+.product-list-title{
+  display: block !important;
+}
+.product-item-info{
+    text-align: start;
+}
+.product-item-img {
+    height: auto;
+}
+}
