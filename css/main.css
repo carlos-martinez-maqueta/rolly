@@ -16,6 +16,7 @@
     position: absolute;
     width: 100%;
 }
+
 .Header-container {
     height: 100%;
     display: -webkit-box;
@@ -29,6 +30,21 @@
     align-items: center;
        max-width: 1140px;
     margin: 0 auto;
+}
+.MenuResponsive-movil button{
+		    border: 0;
+    background-color: transparent;
+    color: var(--color-header);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 0;
+}
+.MenuResponsive-movil button svg{
+	color: #ffffff;
 }
     	.MenuResponsive-desktop ul {
     display: -webkit-box;
@@ -192,6 +208,12 @@ line-height: 16px;
 	.product-sneakers{
     height: 558px;
 	}
+	.spring-cont{
+		height: 670px;
+	}
+	.spring{
+		height: 671px;
+	}
 .spring-preview{
 		background: url(../img/fondo-5.png);
 		background-size: cover;
@@ -242,6 +264,7 @@ line-height: 16px;
     height: 160px;
     overflow: hidden;
     border-radius: 50%;
+    right: -12px;
 }
 .redes-sociales{
     list-style: none;
@@ -262,7 +285,6 @@ line-height: 16px;
 		display: flex;
 	}
 	 .contain1{
-	 	height: 510px;
 	 	width: 12%;
 	 	background: #FF6611;
 	 }
@@ -358,3 +380,190 @@ color: #ffffff;
 	.redes-rolly ul li svg{
 		color: #ffffff;
 	}	
+
+
+
+
+
+
+
+/* MEDIA */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1080px) {
+
+}
+
+@media (max-width: 960px) {
+ 
+}
+
+@media (max-width: 768px) {
+
+}
+@media (max-width: 540px) {
+
+}
+@media (max-width: 480px) {
+ .info-rolly .year{
+ 	display: none;
+ }
+ .info-rolly{
+ 	text-align: center;
+ }
+ .redes-rolly ul {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.info-rolly .metodo-pago {
+    margin-top: 30px;
+    display: flex;
+    width: 59%;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+    }
+    .info-rolly .metodo-pago li {
+    width: 89px;
+}
+.form-touch{
+	text-align: center;
+}
+.btn-suscribe{
+	width: 254px;
+	margin-top: 20px;
+}
+h1{
+	    font-size: 30px;
+}
+.contain {
+    height: 400px;
+}
+.contain2 img {
+    width: 347px;
+}
+.contain3 .title-contain3 h2 {
+    font-style: normal;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+}
+.title-contain3 {
+    width: 97%;
+    /* margin: auto; */
+    position: relative;
+    top: 177px;
+    left: 1px;
+}
+}
+@media (max-width: 360px) {
+.contain {
+    height: 361px;
+}
+.contain2 img {
+    width: 295px;
+}
+.contain3 .title-contain3 h2 {
+
+    font-size: 32px;
+    line-height: 43px;
+}
+.title-contain3 {
+    width: 97%;
+    /* margin: auto; */
+    position: relative;
+    top: 177px;
+    left: 1px;
+}
+.product-pants{
+	height: 220px;
+}
+.product-pants img{
+	height: 100%;
+}
+.product-sneakers {
+ margin-top: 25px;
+    height: 260px;
+}
+.cont-text {
+    position: absolute;
+    top: 60px;
+    width: 275px;
+    left: 32px;
+}
+.cont-text .text-products p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.text-products-more {
+    bottom: -5px;
+    left: 25px;
+}
+.cont-text-4 {
+    bottom: 30px;
+    left: 30px;
+    width: 284px;
+}
+.cont-text-4 .text-products p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    }
+    .carousel-caption-home{
+    text-align: center;
+    top: 26%;
+    width: 80%;
+}
+.carousel-caption-home h5 {
+    font-size: 27px;
+}
+.carousel-caption-home p{
+	font-size: 14px;
+}
+.spring-cont {
+    height: 100%;
+}
+.spring{
+		height: 100%;
+	}
+.spring-preview{
+	height: 400px
+}
+.spring-preview-2{
+	height: 400px
+}
+.spring-preview .cont-info {
+    top: 19%;
+    }
+    .spring-preview .cont-info h3 {
+ 
+    font-size: 27px;
+}
+.cont-button {
+    width: 100%;
+    left: 0%;
+}
+.Header {
+    padding: 10px 10px;
+    }
+    .Header-options ul li {
+    padding: 0px 8px;
+}
+.Header-logo img {
+    width: 50%;
+    margin-left: 30px;
+}
+
+/**/
+.banner {
+	height: 510px;
+    position: relative;
+}
+}
