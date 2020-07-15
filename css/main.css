@@ -77,6 +77,12 @@
     top: 4px;
     margin: auto;
 }
+.obj-img{
+	height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
 .carousel-caption-home {
     position: absolute;
     right: 0px;
@@ -394,18 +400,188 @@ color: #ffffff;
 }
 
 @media (max-width: 1080px) {
-
+.carousel-caption-home{
+	top: 17%;
+}
 }
 
 @media (max-width: 960px) {
- 
+ .carousel-caption-home{
+ 	width: 74%;
+ }
+ .form-touch{
+		text-align: center;
+	}
+	.contain3 .title-contain3 h2{
+		font-size: 60px;
+	}
 }
 
 @media (max-width: 768px) {
 
+.spring-cont {
+    height: 100%;
+}
+.spring-preview{
+	height: 450px;
+}
+.spring-preview-2{
+	height: 450px;
+}
+.cont-img {
+    width: 131px;
+    height: 131px;
+    right: 0px;
+}
+.redes-sociales {
+    width: 92%; 
+}
+.redes-sociales img {
+    width: 22px !important;
+}
+.title-contain3 {
+    width: 94%;
+    top: 290px;
+    left: 20px;
+}
+.contain3 .title-contain3 h2 {
+    font-size: 61px;
+    line-height: 88px;
+}
+.product-sneakers {
+   margin-top: 25px;
+}
+.carousel-caption-home {
+top: 25%;
+    width: 74%;
+    text-align: center;
+}
+.carousel-caption-home h5 {
+    font-size: 32px;
+}
 }
 @media (max-width: 540px) {
+	.carousel-caption-home {
 
+    width: 76%;
+    text-align: center;
+}
+.carousel-caption-home h5 {
+    font-size: 33px;
+}
+.contain3 .title-contain3 h2 {
+ font-size: 42px;
+    line-height: 45px;
+}
+.title-contain3 {
+    top: 251px;
+    left: 42px;
+        width: 79%;
+}
+ .info-rolly .year{
+ 	display: none;
+ }
+ .info-rolly{
+ 	text-align: center;
+ }
+ .redes-rolly ul {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.info-rolly .metodo-pago {
+    margin-top: 30px;
+    display: flex;
+    width: 59%;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+    }
+    .info-rolly .metodo-pago li {
+    width: 89px;
+}
+.form-touch{
+	text-align: center;
+}
+.btn-suscribe{
+	width: 254px;
+	margin-top: 20px;
+}
+h1{
+	    font-size: 30px;
+}
+.contain {
+    height: 360px;
+}
+.contain2 img {
+    width: 300px;
+}
+.contain3 .title-contain3 h2 {
+    font-style: normal;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+}
+.title-contain3 {
+    width: 97%;
+    /* margin: auto; */
+    position: relative;
+    top: 177px;
+    left: 1px;
+}
+.product-pants {
+    height: 250px;
+}
+.product-pants img {
+    height: 100%;
+}
+.cont-text {
+    top: 84px;
+    width: 275px;
+    left: 32px;
+}
+.cont-text .text-products p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.product-sneakers {
+    margin-top: 25px;
+    height: 415px;
+}
+.cont-text-4 {
+    bottom: 13px;
+    left: 36px;
+    width: 316px;
+}
+.spring-preview {
+    height: 400px;
+}
+.spring-preview .cont-info {
+    top: 19%;
+}
+.spring-preview .cont-info h3 {
+    font-size: 34px;
+}
+.cont-button {
+    width: 100%;
+    left: 0%;
+}
+.spring-preview-2{
+	height: 400px;
+}
+.spring-cont {
+    height: 100%;
+}
+.cont-img {
+    width: 93%;
+    height: 93%;
+    right: -35px;
+}
+.redes-sociales {
+    width: 47%;
+}
 }
 @media (max-width: 480px) {
  .info-rolly .year{
@@ -442,10 +618,10 @@ h1{
 	    font-size: 30px;
 }
 .contain {
-    height: 400px;
+    height: 360px;
 }
 .contain2 img {
-    width: 347px;
+    width: 300px;
 }
 .contain3 .title-contain3 h2 {
     font-style: normal;
@@ -461,13 +637,61 @@ h1{
     top: 177px;
     left: 1px;
 }
+.product-pants {
+    height: 250px;
+}
+.product-pants img {
+    height: 100%;
+}
+.cont-text {
+    top: 84px;
+    width: 275px;
+    left: 32px;
+}
+.cont-text .text-products p {
+    font-size: 12px;
+    line-height: 17px;
+}
+.product-sneakers {
+    margin-top: 25px;
+    height: 282px;
+}
+.cont-text-4 {
+    bottom: 13px;
+    left: 36px;
+    width: 316px;
+}
+.spring-preview {
+    height: 400px;
+}
+.spring-preview .cont-info {
+    top: 19%;
+}
+.spring-preview .cont-info h3 {
+    font-size: 34px;
+}
+.cont-button {
+    width: 100%;
+    left: 0%;
+}
+.spring-preview-2{
+	height: 400px;
+}
+.spring-cont {
+    height: 100%;
+}
+.cont-img {
+
+    right: -16px;
+}
+
 }
 @media (max-width: 360px) {
 .contain {
     height: 361px;
 }
 .contain2 img {
-    width: 295px;
+   width: 284px;
 }
 .contain3 .title-contain3 h2 {
 
@@ -560,7 +784,10 @@ h1{
     width: 50%;
     margin-left: 30px;
 }
+.cont-img {
 
+    right: -16px;
+}
 /**/
 .banner {
 	height: 510px;
